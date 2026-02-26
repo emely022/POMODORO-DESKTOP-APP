@@ -1,0 +1,23 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# --- Sanal Ortam (Virtual Environment) ---
+venv/
+env/
+.env/
+# --- Veritabanı ---
+*.db
+
+# --- macOS ---
+.DS_Store
+
+# --- IDE / Editör ---
+.vscode/
+.idea/
+
+# --- Dağıtım ---
+dist/
+build/
+*.spec
