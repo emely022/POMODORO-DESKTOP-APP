@@ -1,8 +1,8 @@
-# Evolutionary Pomodoro
+#POMODORO
 
 **Görsel Odaklanma ve Karakter Evrimi Uygulaması**
 
-Bu uygulama, standart Pomodoro tekniğini odaklanma sürecini daha verimli ve eğlenceli hale getirmek amacıyla geliştirilmiştir. Proje 2 öğrenci tarafından yazılım ve tasarım süreçlerinde tam ortaklık ilkesiyle hayata geçirilmiştir.
+Bu uygulama, standart Pomodoro tekniğini odaklanma sürecini daha verimli ve eğlenceli hale getirmek amacıyla geliştirilmiştir.
 
 ## ✨ Öne Çıkan Özellikler
 
