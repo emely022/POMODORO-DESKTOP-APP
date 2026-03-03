@@ -1,4 +1,4 @@
-#POMODORO#
+# POMODORO
 
 **Görsel Odaklanma ve Karakter Evrimi Uygulaması**
 
