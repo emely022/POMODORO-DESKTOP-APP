@@ -1,4 +1,4 @@
-# POMODORO
+# POMODORO DESKTOP APP
 
 **Görsel Odaklanma ve Karakter Evrimi Uygulaması**
 
