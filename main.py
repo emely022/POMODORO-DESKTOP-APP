@@ -86,7 +86,7 @@ class PomodoroApp(ctk.CTk):
         self.figure_label.pack(pady=10)
         
         
-        self.timer_label = ctk.CTkLabel(self.main_container, text="00:00", font=("Helvetica", 90, "bold"), text_color=RENKLER["YAZI_ANA"])
+        self.timer_label = ctk.CTkLabel(self.main_container, text=self.logic.format_time(self.remaining_secs), font=("Helvetica", 90, "bold"), text_color=RENKLER["YAZI_ANA"])
         self.timer_label.pack(pady=0)
         
         
@@ -193,7 +193,6 @@ class PomodoroApp(ctk.CTk):
                 self.remaining_secs = self.total_work_secs
             
             self.logic.is_running = True
-            self.logic.mode = "work"
             self.show_timer_page() 
             self.tick()
         else:
