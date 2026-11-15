@@ -10,15 +10,15 @@ Standart Pomodoro tekniğini daha verimli ve eğlenceli hale getirmek için geli
 Sayaç, tamamlanan döngü sayısı, odaklanma çubuğu ve duraklatma butonu tek ekranda.
 
 <p align="center">
-  <img src="screenshots/karakter-kedi.png" alt="Kedi karakteri ile Pomodoro zamanlayıcı" width="48%">
-  <img src="screenshots/karakter-kopek.png" alt="Köpek karakteri ile Pomodoro zamanlayıcı" width="48%">
+  <img src="karakter-kedi.png" alt="Kedi karakteri ile Pomodoro zamanlayıcı" width="48%">
+  <img src="karakter-kopek.png" alt="Köpek karakteri ile Pomodoro zamanlayıcı" width="48%">
 </p>
 
 ### Çalışma Geçmişi
 Seanslar güne göre gruplanır ve katlanabilir bir akordeon menüde listelenir.
 
 <p align="center">
-  <img src="screenshots/calisma-gecmisi.png" alt="Gün bazlı çalışma geçmişi paneli" width="80%">
+  <img src="calisma-gecmisi.png" alt="Gün bazlı çalışma geçmişi paneli" width="80%">
 </p>
 
 ## ✨ Öne Çıkan Özellikler
