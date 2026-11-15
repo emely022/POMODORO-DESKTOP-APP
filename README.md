@@ -1,50 +1,79 @@
-# POMODORO DESKTOP APP
+# 🐝 POMODORO DESKTOP APP
 
 **Görsel Odaklanma ve Karakter Evrimi Uygulaması**
 
-Bu uygulama, standart Pomodoro tekniğini odaklanma sürecini daha verimli ve eğlenceli hale getirmek amacıyla geliştirilmiştir.
+Standart Pomodoro tekniğini daha verimli ve eğlenceli hale getirmek için geliştirilmiş bir masaüstü uygulaması. Çalışırken seçtiğin karakter, odaklanma süresine göre gelişir; tüm çalışma seansların kaydedilir ve gün bazında incelenebilir.
+
+## 📸 Ekran Görüntüleri
+
+### Zamanlayıcı ve Karakter
+Sayaç, tamamlanan döngü sayısı, odaklanma çubuğu ve duraklatma butonu tek ekranda.
+
+<p align="center">
+  <img src="screenshots/karakter-kedi.png" alt="Kedi karakteri ile Pomodoro zamanlayıcı" width="48%">
+  <img src="screenshots/karakter-kopek.png" alt="Köpek karakteri ile Pomodoro zamanlayıcı" width="48%">
+</p>
+
+### Çalışma Geçmişi
+Seanslar güne göre gruplanır ve katlanabilir bir akordeon menüde listelenir.
+
+<p align="center">
+  <img src="screenshots/calisma-gecmisi.png" alt="Gün bazlı çalışma geçmişi paneli" width="80%">
+</p>
 
 ## ✨ Öne Çıkan Özellikler
 
-* **Dinamik Evrim Sistemi:** Çalışma süresine bağlı olarak seçtiğiniz karakteriniz  5 farklı aşamada gelişim gösterir.
-* **Gelişmiş Geçmiş Paneli:** SQLite veritabanı entegrasyonu ile tüm çalışma seansları kayıt altına alınır.
-* **Akordeon Menü Yapısı:** Gün bazlı gruplandırılmış, katlanabilir ve modern bir geçmiş izleme arayüzü sunar.
-* **Özgün Dijital Sanat:** Uygulama içerisindeki tüm figürler **Sketchbook** üzerinden dijital olarak çizilmiş ve PNG formatında optimize edilmiştir.
+* **Dinamik Evrim Sistemi:** Çalışma süresine bağlı olarak seçtiğin karakter 5 farklı aşamada gelişir.
+* **Odaklanma Takibi:** Her seansta ilerleme çubuğu ve odaklanma yüzdesi gösterilir.
+* **Gelişmiş Geçmiş Paneli:** SQLite entegrasyonu ile tüm çalışma seansları kayıt altına alınır.
+* **Akordeon Menü Yapısı:** Gün bazlı gruplandırılmış, katlanabilir ve modern bir geçmiş arayüzü sunar.
+* **Özgün Dijital Sanat:** Uygulamadaki tüm figürler **Sketchbook** ile dijital olarak çizilmiş ve PNG formatında optimize edilmiştir.
 
 ## 🛠️ Kullanılan Teknolojiler
 
-* **Programlama Dili:** Python
-* **Arayüz (GUI):** CustomTkinter (Modern ve Responsive Tasarım)
-* **Veritabanı:** SQLite3 (Yerel veri depolama)
-* **Görsel İşleme:** Pillow (PNG manipülasyonu)
-* **Grafik Tasarım:** Sketchbook
+| Alan | Teknoloji |
+|---|---|
+| Programlama Dili | Python |
+| Arayüz (GUI) | CustomTkinter |
+| Veritabanı | SQLite3 (yerel veri depolama) |
+| Görsel İşleme | Pillow |
+| Grafik Tasarım | Sketchbook |
 
 ## 🚀 Kurulum ve Çalıştırma
 
-1. Projeyi klonlayın:  
+1. Projeyi klonla:
 
-   `git clone https://github.com/HakanURAL06/POMODORO.git`
+   ```bash
+   git clone https://github.com/emely022/POMODORO-DESKTOP-APP.git
+   ```
 
-2. Klasörün İçine girin:
+2. Klasörün içine gir:
 
-   `cd POMODORO`
+   ```bash
+   cd POMODORO-DESKTOP-APP
+   ```
 
-3. Sanal ortamı oluşturun ve aktif edin:  
+3. Sanal ortamı oluştur ve aktif et:
 
-   `python3 -m venv venv`  
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-   `source venv/bin/activate`
+4. Gerekli kütüphaneleri yükle:
 
-4. Gerekli kütüphaneleri yükleyin:  
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-   `pip install -r requirements.txt`
-   
-5. Uygulamayı başlatın:  
+5. Uygulamayı başlat:
 
-   `python3 main.py`
+   ```bash
+   python3 main.py
+   ```
 
 ## 👥 Geliştiriciler
 
-Bu proje, yazılım mimarisinden görsel tasarımına kadar her aşamada eşit sorumluluk paylaşılarak geliştirilmiştir.
+Bu proje, yazılım mimarisinden görsel tasarıma kadar her aşamada eşit sorumluluk paylaşılarak geliştirilmiştir.
 
-* **Yazılım & Algoritma & Grafik Tasarım & UI/UX:**  [Hakan URAL](https://github.com/HakanURAL06) & [Emel YURT](https://github.com/emely022)
+* **Yazılım & Algoritma & Grafik Tasarım & UI/UX:** [Hakan URAL](https://github.com/HakanURAL06) & [Emel YURT](https://github.com/emely022)
